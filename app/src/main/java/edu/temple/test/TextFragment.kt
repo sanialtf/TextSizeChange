@@ -20,6 +20,10 @@ class TextFragment : Fragment() {
             textView = findViewById(R.id.textView)
         }
     }
+   
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?){
+        
+    }
 
     fun changeTextSize (size: Float) {
 
